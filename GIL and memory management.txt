@@ -1,0 +1,5 @@
+El manejo de memoria de Python es similar a de java, hay un garbage collector,
+mientras mantenga referencias a los objetos se quedan en memoria pero si un objeto deja de tener referencia lo elimina.
+
+Si bien el multi threading en python existe, GIL evita que haya varios threads ejecutandose a la vez para facilitarle al gestor
+de memoria que objetos se siguen utilizando y cuales no para optimizar el manejo de memoria.
